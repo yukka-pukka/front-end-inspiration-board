@@ -27,8 +27,8 @@ const NewBoardForm = (props) => {
         event.preventDefault();
 
         props.addBoardCallback({
-            titleData: formFields.title,
-            ownerData: formFields.owner
+            title: formFields.title,
+            owner: formFields.owner
         });
 
         setFormFields({
